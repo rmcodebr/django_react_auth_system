@@ -1,0 +1,55 @@
+# # ==========================================
+# # RAÍZ DO PROJETO
+# # ==========================================
+# .DS_Store
+# Thumbs.db
+# .vscode/
+# .idea/
+
+# # ==========================================
+# # BACKEND (Django)
+# # ==========================================
+# # Ambientes Virtuais
+# backend/venv/
+# backend/.venv/
+# backend/env/
+
+# # Arquivos compilados do Python
+# backend/__pycache__/
+# backend/*.py[cod]
+# backend/*$py.class
+
+# # Configurações locais e segredos (NUNCA envie o .env)
+# backend/.env
+# backend/local_settings.py
+
+# # Banco de dados local (padrão do Django para desenvolvimento)
+# backend/db.sqlite3
+
+# # Arquivos de mídia e estáticos gerados localmente
+# backend/media/
+# backend/staticfiles/
+
+# # ==========================================
+# # FRONTEND (Vite / Node)
+# # ==========================================
+# # Dependências do Node
+# frontend/node_modules/
+
+# # Pasta de build/produção (gerada pelo 'vite build')
+# frontend/dist/
+# frontend/out/
+
+# # Logs do npm/yarn
+# frontend/*.log
+# frontend/npm-debug.log*
+# frontend/yarn-debug.log*
+# frontend/yarn-error.log*
+
+# # Variáveis de ambiente do Frontend
+# frontend/.env
+# frontend/.env.local
+# frontend/.env.*.local
+
+# # Editor / IDE do Frontend
+# frontend/.eslintcache
